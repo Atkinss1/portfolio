@@ -1,0 +1,16 @@
+.main_hero_wrapper {
+  background-color: orange;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name_container {
+  background-color: white;
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  font-size: large;
+}
