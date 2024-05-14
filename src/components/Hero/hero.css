@@ -26,14 +26,16 @@
 
 .profile_name {
   font-family: Kaushan Script;
+  color: white;
   font-size: 50px;
   font-weight: 300;
   line-height: 1.3;
   transform: rotate(-5deg);
 }
 
-.web_dev {
+.web_dev_title {
   font-family: Space Mono;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
