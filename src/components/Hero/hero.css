@@ -1,16 +1,36 @@
-.main_hero_wrapper {
+.hero_wrapper {
+  min-height: 100vh;
   background-color: orange;
-  height: 100%;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.name_container {
-  background-color: white;
-  border: 3px solid black;
-  width: 100px;
-  height: 100px;
-  font-size: large;
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+  height: 948px;
+  width: 800px;
+}
+
+.profile_thumbnail {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.profile_name {
+  font-size: 50px;
+  line-height: 1.3;
+  transform: rotate(-5deg);
+}
+
+.social_media_wrapper {
+  display: flex;
+  background-color: blue;
+  width: 100%;
+  flex-direction: row;
 }
