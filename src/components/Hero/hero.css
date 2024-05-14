@@ -1,19 +1,21 @@
 .hero_wrapper {
   min-height: 100vh;
-  background-color: orange;
+  background: url('images/backgroundimage.jpg');
+  background-size: cover;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container {
+  background-color: rgba(249, 123, 6, 0.866);
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: red;
   height: 948px;
-  width: 800px;
+  width: 100%;
 }
 
 .profile_thumbnail {
@@ -23,14 +25,40 @@
 }
 
 .profile_name {
+  font-family: Kaushan Script;
   font-size: 50px;
+  font-weight: 300;
   line-height: 1.3;
   transform: rotate(-5deg);
 }
 
+.web_dev {
+  font-family: Space Mono;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
 .social_media_wrapper {
   display: flex;
-  background-color: blue;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  flex-direction: row;
+  height: 50px;
+  
+}
+
+.social_media_icons {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.social_media_icons li {
+  margin: 0 10px;
 }

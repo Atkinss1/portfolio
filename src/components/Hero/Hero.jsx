@@ -12,8 +12,8 @@ const Hero = () => {
               </span>
             </h1>
           </div>
-            <h3>
-              <span>Web Developer</span>
+            <h3 className='web_dev'>
+              <span>Full-Stack Web Developer</span>
             </h3>
           <div className="social_media_wrapper">
             <ul className="social_media_icons">
