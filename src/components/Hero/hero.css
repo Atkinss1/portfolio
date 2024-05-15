@@ -71,6 +71,50 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #fff;
   padding: 50px 0; 
+}
+
+.about_me_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  width: 100%;
+}
+
+.about_me {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  font-size: 40px;
+  font-family: "Space Mono", Arial, serif;
+}
+
+.details_container {
+  display: flex;
+  justify-content: space-evenly, center;
+  height: 75%;
+  width: 50%;
+  flex: 1;
+}
+
+.about_me_details {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 35%;
+  margin-left: 4rem;
+  margin-top: 25px;
+}
+
+.about_me_details li {
+  list-style-type: none;
+}
+
+.about_me_bio {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
