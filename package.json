@@ -2,6 +2,7 @@
   "name": "web-dev-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://atkinss1.github.io/portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
