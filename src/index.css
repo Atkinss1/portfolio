@@ -1,10 +1,14 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: Space Mono;
+  font-family: "Space Mono", Arial, serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body::-webkit-scrollbar {

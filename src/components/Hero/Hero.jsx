@@ -1,4 +1,5 @@
 import './hero.css';
+import SocialIcons from '../SocialIcons/SocialIcons';
 
 const Hero = () => {
   return (
@@ -17,23 +18,7 @@ const Hero = () => {
                 <span>Full-Stack Web Developer</span>
               </h3>
             <div className="social_media_wrapper">
-              <ul className="social_media_icons">
-                <li>
-                  <a href="https://github.com/Atkinss1">
-                    <i className="fa-brands fa-github fa-2xl"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/atkins-jordan/">
-                    <i className="fa-brands fa-linkedin fa-2xl"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/atkinsz/">
-                    <i class="fa-brands fa-instagram fa-2xl"></i>
-                  </a>
-                </li>
-              </ul>
+              <SocialIcons/>
             </div>
         </div>
       </div>
@@ -53,28 +38,16 @@ const Hero = () => {
             <div className="about_me_bio">
               <h2>Hey There!</h2>
               <p>
-                I’m Jordan Atkins, a full stack developer with 14 years of experience in the oil and gas industry. My career has been defined by a passion for creating seamless, user-friendly websites and collaborating on innovative projects. I’m also an avid enthusiast of the auto and gaming industries, constantly seeking to blend my technical expertise with these personal interests. As I continue to expand my skills, my goal is to build amazing digital experiences and contribute to dynamic teams in delivering outstanding results.
+                I`m Jordan Atkins, a full stack developer with 14 years of experience in the oil and gas industry. My career has been defined by a passion for creating seamless, user-friendly websites and collaborating on innovative projects. I`m also an avid enthusiast of the auto and gaming industries, constantly seeking to blend my technical expertise with these personal interests. As I continue to expand my skills, my goal is to build amazing digital experiences and contribute to dynamic teams in delivering outstanding results.
               </p>
-              <ul className="social_media_icons">
-                <li>
-                  <a href="https://github.com/Atkinss1">
-                    <i className="fa-brands fa-github fa-2xl"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/atkins-jordan/">
-                    <i className="fa-brands fa-linkedin fa-2xl"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/atkinsz/">
-                    <i class="fa-brands fa-instagram fa-2xl"></i>
-                  </a>
-                </li>
-              </ul>
+              <SocialIcons/>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="projects_container">
+        <h2>PROJECTS LIST HERE</h2>
       </div>
     </>
   );
