@@ -1,6 +1,6 @@
 {
   "name": "web-dev-portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://atkinss1.github.io/portfolio/",
   "type": "module",
