@@ -1,6 +1,6 @@
 .hero_wrapper {
   min-height: 100vh;
-  background: url('images/backgroundimage.jpg');
+  background: url('images/backgroundimage.jpg') no-repeat;
   background-size: cover;
   position: relative;
   display: flex;
@@ -14,8 +14,10 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 948px;
+  min-height: 100vh;
   width: 100%;
+  padding: 50px 0;
+  box-sizing: border-box;
 }
 
 .profile_thumbnail {
@@ -25,7 +27,7 @@
 }
 
 .profile_name {
-  font-family: Kaushan Script;
+  font-family: 'Kaushan Script', cursive;
   color: white;
   font-size: 50px;
   font-weight: 300;
@@ -34,7 +36,6 @@
 }
 
 .web_dev_title {
-  font-family: Space Mono;
   color: white;
   display: flex;
   justify-content: center;
@@ -63,4 +64,13 @@
 
 .social_media_icons li {
   margin: 0 10px;
+}
+
+.about_me_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 0; 
 }
