@@ -1,7 +1,9 @@
+
+
 @media only screen and (max-width: 600px) {
   .hero_wrapper {
     min-height: 100vh;
-    background: url('./images/backgroundImage.jpg') no-repeat;
+    background: url('/images/backgroundImage.jpg') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
