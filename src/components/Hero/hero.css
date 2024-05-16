@@ -188,7 +188,7 @@
   .details_container {
     display: flex;
     align-items: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
     height: 75%;
     width: 50%;
     flex: 1;
