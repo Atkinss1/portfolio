@@ -35,6 +35,17 @@ const Hero = () => {
               <li>Email: Jordanatkins@live.com</li>
               <li>Stomping Grounds: Edmonton, Alberta</li>
             </ul>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div className="projects_container">
+              <h2>PROJECTS LIST HERE</h2>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <div className="about_me_bio">
               <h2>Hey There!</h2>
               <p>
@@ -44,10 +55,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="projects_container">
-        <h2>PROJECTS LIST HERE</h2>
       </div>
     </>
   );
