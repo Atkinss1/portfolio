@@ -1,6 +1,7 @@
 import './hero.css';
 import SocialIcons from '../SocialIcons/SocialIcons';
-import devData from '../../../public/data';
+import devData from '../../../public/devData';
+import AlternateTimeline from '../TimeLine/TimeLine';
 
 const Hero = () => {
   return (
@@ -43,6 +44,7 @@ const Hero = () => {
             <br/>
             <div className="projects_container">
               <h2>PROJECTS LIST HERE</h2>
+              <AlternateTimeline/>
             </div>
             <br/>
             <br/>
