@@ -43,7 +43,7 @@ const Hero = () => {
             <br/>
             <br/>
             <div className="projects_container">
-              <h2>PROJECTS LIST HERE</h2>
+              <h2>PROJECTS</h2>
               <AlternateTimeline/>
             </div>
             <br/>
