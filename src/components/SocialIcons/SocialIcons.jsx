@@ -15,7 +15,7 @@ const SocialIcons = () => {
       </li>
       <li>
         <a href="https://www.instagram.com/atkinsz/">
-          <i class="fa-brands fa-instagram fa-2xl"></i>
+          <i className="fa-brands fa-instagram fa-2xl"></i>
         </a>
       </li>
     </ul>
