@@ -19,13 +19,16 @@ export default function AlternateTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Reveal>
-            <h1>{projectData.propBox.name}</h1>
-            <a href={projectData.propBox.link}><img className="timeline_img" src={projectData.propBox.image} alt="PropBox Application" /></a>
-            <br/>
-            {projectData.propBox.description}
-            <br/>
-            <br/>
-            {projectData.propBox.techStack}
+            <div className="card right">
+              <h1>{projectData.propBox.name}</h1>
+              <a href={projectData.propBox.link}><img className="timeline_img" src={projectData.propBox.image} alt="PropBox Application" /></a>
+              <br/>
+              {projectData.propBox.description}
+              <br/>
+              -------------------------------------------------------
+              <br/>
+              {projectData.propBox.techStack}
+            </div>
           </Reveal>
         </TimelineContent>
       </TimelineItem>
@@ -36,13 +39,16 @@ export default function AlternateTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Reveal>
-            <h1>{projectData.tweeter.name}</h1>
-            <a href={projectData.tweeter.link}><img className="timeline_img" src={projectData.tweeter.image} alt="PropBox Application" /></a>
-            <br/>
-            {projectData.tweeter.description}
-            <br/>
-            <br/>
-            {projectData.tweeter.techStack}
+            <div className="card left">
+              <h1>{projectData.tweeter.name}</h1>
+              <a href={projectData.tweeter.link}><img className="timeline_img" src={projectData.tweeter.image} alt="PropBox Application" /></a>
+              <br/>
+              {projectData.tweeter.description}
+              <br/>
+              -------------------------------------------------------
+              <br/>
+              {projectData.tweeter.techStack}
+            </div>
           </Reveal>
         </TimelineContent>
       </TimelineItem>
@@ -53,13 +59,16 @@ export default function AlternateTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Reveal>
-            <h1>{projectData.trueRetro.name}</h1>
-            <a href={projectData.trueRetro.link}><img className="timeline_img" src={projectData.trueRetro.image} alt="PropBox Application" /></a>
-            <br/>
-            {projectData.trueRetro.description}
-            <br/>
-            <br/>
-            {projectData.trueRetro.techStack}
+            <div className="card right">
+              <h1>{projectData.trueRetro.name}</h1>
+              <a href={projectData.trueRetro.link}><img className="timeline_img" src={projectData.trueRetro.image} alt="PropBox Application" /></a>
+              <br/>
+              {projectData.trueRetro.description}
+              <br/>
+              -------------------------------------------------------
+              <br/>
+              {projectData.trueRetro.techStack}
+            </div>
           </Reveal>
         </TimelineContent>
       </TimelineItem>
@@ -69,13 +78,16 @@ export default function AlternateTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Reveal>
-            <h1>{projectData.chatApp.name}</h1>
-            <a href={projectData.chatApp.link}><img className="timeline_img" src={projectData.chatApp.image} alt="PropBox Application" /></a>
-            <br/>
-            {projectData.chatApp.description}
-            <br/>
-            <br/>
-            {projectData.chatApp.techStack}
+            <div className="card left">
+              <h1>{projectData.chatApp.name}</h1>
+              <a href={projectData.chatApp.link}><img className="timeline_img" src={projectData.chatApp.image} alt="PropBox Application" /></a>
+              <br/>
+              {projectData.chatApp.description}
+              <br/>
+              -------------------------------------------------------
+              <br/>
+              {projectData.chatApp.techStack}
+            </div>
           </Reveal>
           </TimelineContent>
       </TimelineItem>

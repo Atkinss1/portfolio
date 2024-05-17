@@ -1,4 +1,49 @@
-.timeline_img {
-  height: 200px;
-  width: auto;
+@media only screen and (max-width: 400px) {
+  .card.right{
+    min-height: 200px;
+    max-width: auto;
+    border: 4px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: .25rem;
+  }
+
+  .card.left{
+    min-height: 200px;
+    max-width: auto;
+    border: 4px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: .25rem;
+  }
+
+  .timeline_img {
+    height: 200px;
+    max-width: auto;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .card.right {
+    min-height: 200px;
+    max-width: auto;
+    border: 4px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 1rem;
+  }
+
+  .card.left {
+    min-height: 200px;
+    max-width: auto;
+    border: 4px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 3rem;
+  }
+
+  .timeline_img {
+    height: 200px;
+    max-width: auto;
+  }
 }
