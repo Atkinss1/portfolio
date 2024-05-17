@@ -52,7 +52,6 @@ const Hero = () => {
             <br/>
             <ul className="about_me_details">
               <li>{devData.details.name}</li>
-              <li>{devData.details.phone}</li>
               <li>{devData.details.email}</li>
               <li>{devData.details.location}</li>
             </ul>
